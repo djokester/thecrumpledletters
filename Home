@@ -154,6 +154,19 @@ footer a:hover {
     text-decoration: none;
 }
 
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
 		
 </style>			
 </head>
@@ -210,7 +223,7 @@ footer a:hover {
   <!--Keep Images at 1920*1080-->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="river.jpg">
+      <a href="#Modal1" data-toggle="modal"><img src="river.jpg"></a>
       <div class="carousel-caption">
         <h3>A River Side Date</h3>
         <p>A romantic finds a subject to admire...</p>
@@ -218,7 +231,7 @@ footer a:hover {
     </div>
 
     <div class="item">
-      <img src="butterfly.jpg" alt="Chicago">
+      <a href="#Modal2" data-toggle="modal"><img src="butterfly.jpg" alt="butterfly"></a>
       <div class="carousel-caption">
         <h3>The Butterfly Effect</h3>
         <p>That moment when you meet that special someone...</p>
@@ -226,9 +239,9 @@ footer a:hover {
     </div>
 
     <div class="item">
-      <img src="hello.jpg" alt="Los Angeles">
+       <a href="#Modal3" data-toggle="modal"><img src="hello.jpg" alt="Los Angeles"></a>
       <div class="carousel-caption">
-        <h3>Random</h3>
+        <h3>Wanderlust</h3>
         <p>Even though the traffic was a mess, we had the best time.</p>
       </div>
     </div>
@@ -313,6 +326,7 @@ footer a:hover {
       <p><span class="glyphicon glyphicon-map-marker"></span>West Bengal, India</p>
       <p><span class="glyphicon glyphicon-envelope"></span>Email: letterscrumpled@gmail.com</p>
     </div>
+    <form>
     <div class="col-md-8">
       <div class="row">
         <div class="col-sm-6 form-group">
@@ -329,10 +343,9 @@ footer a:hover {
         </div>
       </div>
     </div>
+  </form>
   </div>
 </div>
-
-
 
 
 <footer class="text-center">
@@ -343,8 +356,129 @@ footer a:hover {
 </footer>
 
 
+<div id="Modal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
+    <!-- Modal content-->
+    <div class="modal-content">
+ 	<div class="modal-body">
+        	<div class="container-fluid text-center">
+			<h2>A Riverside Date</h2>
+			<h4>After waiting for two months and nineteen days,<br>
+Finally he blessed me with, her reverent grace.<br>
+She made me understood the paramountcy of time,<br>
+Certainly that led us getting indulge in noblest crime.<br>
+An orange Wednesday morning marked, ‘A Riverside Date’<br> 
+Wearing Orange bliss sundress she was one to imitate.<br>
+Kohl lined hazel eyes with gentle curls of hair,<br>
+She was no lesser than the cover girl of ‘Vanity Fair’.<br>
+Gentle Sea breeze kept pulsing her Red Cheeks,<br>
+Like a maverick playing with emerald in calcite matrix.<br>
+Her eyes ruled my ears with an acoustic melody of Gibson,<br>
+Like an Eurasian ivy continuously being rained upon.<br>
+Having her by my side always provided motivation,<br>
+At that time I felt I am no longer an Utopian.<br>
+Her rheumy eyes hankered me to drown<br>
+To possess the two pearls of goddess crown.<br>
+Although her nature was way too pedantic,<br>
+But the romanticism between us too became gigantic.<br>
+The dusk marked the end of a ‘A Riverside Date’,<br>
+With our love determined to change our fate.<br>
+<em><b>Mrigank Prasoon</b></em>
+			</h4>
+		</div>	
+        </div>
+        <div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
 
+  </div>
+</div>
 
+<div id="Modal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+ 	<div class="modal-body">
+        	<div class="container-fluid text-center">
+			<h2>A Riverside Date</h2>
+			<h4>How Love is metaphorically a Butterfly effect. <br>
+The days seemed to be sinking in mire until the photograph flashed <br>
+Your smile appeared like blushing Camellia-A Gift to a Man <br>
+It felt like God has poured the happiness and heart got Love splashed, <br>
+rekindled my hope like white Zinnia and lengthened my Life Span. <br>
+When you spoke the soothing voice tuned my soul into music, <br>
+Your lips were like a piano which strive to inspire and provided motivation.<br> 
+Your presence which I felt was enough to create a magic,<br> 
+My existence looked justified and my liveliness earned the passion.<br> 
+Suddenly the aim which looked like a pale jaded mountain, now appeared vivid <br>
+and whenever you sat beside me it seemed as if whole world is nearby.<br> 
+I failed many times but you always prevented me from getting livid,<br>
+and when I dreamt , you filled colors and never let my hopes to die.<br> 
+One day we had a fight and I had to leave though I never wanted,<br> 
+but when you left, my luck worsened and I met an accident.<br> 
+Next day when I woke to sleep your voice once again enchanted,<br> 
+and You took care like a mother and ordered as a president.<br> 
+Your love healed every wounds and rejoiced the hope,<br> 
+Your affection melted the frozen sea and illuminated the springs'<br> 
+I once again regained the path and changed my horoscope<br> 
+All the perturbing mystery was now solved which gave wings.<br>
+ The love brought all the turnaround and made successful<br> 
+A long time from now will be really soon,<br> 
+You're my wife and life which made it less stressful,<br> 
+who came as Scarlet Peonies but later became a divine boon.<br> 
+Love is a perfect example of 'The Butterfly Effect' ,<br> 
+where a small change initially can bring drastic changes.<br> 
+Like an adorable smile gained me the love and respect,<br> 
+which crossed all the limits and surpassed all the ranges.<br> 
+My stomach fluttered as if it is the wings of Butterfly,<br>
+My heart thumped as if it has caused tornado in Chicago<br> 
+Your love gave me reasons to fly as well as cry,<br> 
+It was no lesser than 'The Butterfly Effect' which caused changes on the go.<br> 
+<em><b>Mrigank Prasoon</b></em>
+			</h4>
+		</div>	
+        </div>
+        <div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="Modal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+ 	<div class="modal-body">
+        	<div class="container-fluid text-center">
+			<h2>Wanderlust</h2><h4>
+<img src="wanderlust1.jpg" height=25% width=50%><br><br>She has been bored of all of it lately. The early morning alarms, the same route to work, the company of ‘chivalrous’ men, that bored her even more , the societal pretensions, the tidily mended shelf at the corner of her room, the untouched paperbacks scattered on her bed,  precisely everything. She hated being what she has become. She has been wandering inside her mind lately. That was the safest domicile , she believed. The amorous figures that resided there had proved to be more promising than the real life silhouettes.<br><br>
+
+She sipped from the cup of coffee for the fifth time that day. A strong urge to step into a new terrain began to build inside her. She has always been emotional. No, don’t call her a sentimental fool, for she cares about the feelings more than you do. She feels every single sensation more deeply than you do. She has always been drawn to them. She has wandered off to far off places in her thoughts sitting in her room. She has noticed the rain drops on the  window shield compose themselves into patterns, more than you did. So just don’t 	judge her.<br><br>
+
+<img src="wanderlust2.jpg" height=25% width=50%><br><br>The day seemed to pass at a slow pace. It was warm and pleasant outside. She sat on the veranda floor and watched the busy North  Calcutta  lane below. The tea stall was thronging with people of all ages like ever. The owner of that  ten year old medical store  was engrossed in the Ananda Bazaar Patrika just like every morning. The elders of the area were up for their usual “rock-a-adda” regarding what Modi did and what Mamata needs to do. The same morning blues. How different she has become from these busy chromosomes! She too used to be one of those whose lives were shackled by the “ten to five duty” followed by  irksome bus rides back home. But what about now? All these five days, a nicotine rich diet , ample amount of caffeine and some untimely naps stripped off pleasant dreams persisted.<br><br>
+
+She wanted to leave everything and run away to the mountains. She did not want to be a part of her present life. It was as if she was designed to be there without the will of her soul. She looked for her phone that has been off her sight for more than two days now and she was quite taken aback by the number of missed calls and  messages she had received from her folks. She silently mocked at the  feigning concern of her peer groups. She turned on her data and looked for jobs in Kurseong schools.  A teacher of English required for classes above sixth standard , the ad read for one of the well known schools out there. She instantly jotted down the number. Literature has always been an inexplicable part of her life. It has taught her to love, to feel and most importantly to imagine. She has grown up in the tiny spaces between the vast bookshelves of her father’s study, reading the mystery series of Enid Blyton. The O’Sullivan twins helped her to embrace her hostel life keeping all that homesickness aside. She has been to the countryside where Raju has grown up, through the pages of R.K Narayan’s The Guide. She has wept with Holly after the death of Gerry through the words of Cecelia Ahern. Had she not read The Hungry Tide, she wouldn’t have found Sunderbans so pulchritudinous.<br><br>
+
+It was as if she has lived each and every moment with these characters. Books have helped her to see the sky above her head with a different hue altogether. It was her books that had taught her to accept the different shades of a person. She was grateful to them .<br><br> 
+
+<img src="wanderlust3.jpg" height=25% width=50%><br><br>The online interview was at once executed. Leaving a job of fifty thousand for something that offered only twenty thousand would have been a great deal for a layman but it was just a matter of a few notes missing from her wallet or maybe an abated standard of living. She wasn’t bothered .  She thought about the mornings when she would wake up to see the untimely fog take over the civilization. She thought about the walks on the curved paths, up the hill. She thought about the solitude. The comfortable isolation. The simplicity.
+
+			<br><b><em>Olivia Roy</b></em>
+			</h4>
+		</div>	
+        </div>
+        <div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+
+  </div>
+</div>
 </body>
 </html>
