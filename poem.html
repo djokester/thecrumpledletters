@@ -9,6 +9,160 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
+<style>
+@import url('https://fonts.googleapis.com/css?family=Ultra');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #372522;
+}
+
+.carousel-indicators li {
+    border-color: #372522;
+}
+
+.carousel-indicators li.active {
+    background-color: #372522;
+}
+
+.item h2 {
+    font-size: 300%;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: Anton;
+    margin: 90px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+
+</style>
 </head>
 
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="TCL6.png" height=35vh width=100vw></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#poems">POEMS</a></li>
+        <li><a href="musings.html">LETTERS</a></li>
+	<li><a href="micro.html">MICRO</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CONNECT WITH US
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.facebook.com/thecrumpledletters" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/thecrumpledletters/" target="_blank">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>		
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <h2>Poetry is when an emotion has found its thought and the thought has found words.<br><em>Robert Frost</em></h2>
+    </div>
+    <div class="item">
+      <h2>Poetry is not a turning loose of emotion, but an escape from emotion; it is not the expression of personality, but an escape from personality. But, of course, only those who have personality and emotions know what it means to want to escape from these things.<br><em>TS Elliot</em></h2>
+    </div>
+    <div class="item">
+      <h2>If I read a book and it makes my whole body so cold no fire can ever warm me, I know that is poetry.<br><em>Eily Dickinson</em> </h2>
+    </div>
+    <div class="item">
+      <h2>Poetry is a deal of joy and pain and wonder, with a dash of the dictionary.<br><em>Kahlil Gibran</em></h2>
+    </div>
+    
+    <div class="item">
+	<h2>The poetry of the earth is never dead.<br><em>John Keats</em></h2>	  
+</div>
+</div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+</body>
+</html>
